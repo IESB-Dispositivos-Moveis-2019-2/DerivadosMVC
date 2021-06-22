@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB33B23E268166FB00057C6F /* EnderecoMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33B23D268166FB00057C6F /* EnderecoMVVMApp.swift */; };
+		EB33B240268166FB00057C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33B23F268166FB00057C6F /* ContentView.swift */; };
+		EB33B242268166FD00057C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB33B241268166FD00057C6F /* Assets.xcassets */; };
+		EB33B245268166FD00057C6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB33B244268166FD00057C6F /* Preview Assets.xcassets */; };
+		EB33B24E2681671B00057C6F /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33B24D2681671B00057C6F /* Endereco.swift */; };
+		EB33B2512681675E00057C6F /* EnderecoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33B2502681675E00057C6F /* EnderecoFetcher.swift */; };
+		EB33B2532681688A00057C6F /* EnderecoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33B2522681688A00057C6F /* EnderecoViewModel.swift */; };
+		EB33B256268169A100057C6F /* EnderecoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33B255268169A100057C6F /* EnderecoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB33B23A268166FB00057C6F /* EnderecoMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnderecoMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB33B23D268166FB00057C6F /* EnderecoMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnderecoMVVMApp.swift; sourceTree = "<group>"; };
+		EB33B23F268166FB00057C6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB33B241268166FD00057C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB33B244268166FD00057C6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB33B246268166FD00057C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB33B24D2681671B00057C6F /* Endereco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
+		EB33B2502681675E00057C6F /* EnderecoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnderecoFetcher.swift; sourceTree = "<group>"; };
+		EB33B2522681688A00057C6F /* EnderecoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnderecoViewModel.swift; sourceTree = "<group>"; };
+		EB33B255268169A100057C6F /* EnderecoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnderecoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB33B237268166FB00057C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB33B231268166FB00057C6F = {
+			isa = PBXGroup;
+			children = (
+				EB33B23C268166FB00057C6F /* EnderecoMVVM */,
+				EB33B23B268166FB00057C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB33B23B268166FB00057C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB33B23A268166FB00057C6F /* EnderecoMVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB33B23C268166FB00057C6F /* EnderecoMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EB33B2542681699700057C6F /* View */,
+				EB33B24F2681673800057C6F /* ViewModel */,
+				EB33B24C2681671400057C6F /* Model */,
+				EB33B23D268166FB00057C6F /* EnderecoMVVMApp.swift */,
+				EB33B23F268166FB00057C6F /* ContentView.swift */,
+				EB33B241268166FD00057C6F /* Assets.xcassets */,
+				EB33B246268166FD00057C6F /* Info.plist */,
+				EB33B243268166FD00057C6F /* Preview Content */,
+			);
+			path = EnderecoMVVM;
+			sourceTree = "<group>";
+		};
+		EB33B243268166FD00057C6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB33B244268166FD00057C6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB33B24C2681671400057C6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB33B2502681675E00057C6F /* EnderecoFetcher.swift */,
+				EB33B24D2681671B00057C6F /* Endereco.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB33B24F2681673800057C6F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB33B2522681688A00057C6F /* EnderecoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB33B2542681699700057C6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB33B255268169A100057C6F /* EnderecoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB33B239268166FB00057C6F /* EnderecoMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB33B249268166FD00057C6F /* Build configuration list for PBXNativeTarget "EnderecoMVVM" */;
+			buildPhases = (
+				EB33B236268166FB00057C6F /* Sources */,
+				EB33B237268166FB00057C6F /* Frameworks */,
+				EB33B238268166FB00057C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnderecoMVVM;
+			productName = EnderecoMVVM;
+			productReference = EB33B23A268166FB00057C6F /* EnderecoMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB33B232268166FB00057C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB33B239268166FB00057C6F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EB33B235268166FB00057C6F /* Build configuration list for PBXProject "EnderecoMVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB33B231268166FB00057C6F;
+			productRefGroup = EB33B23B268166FB00057C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB33B239268166FB00057C6F /* EnderecoMVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB33B238268166FB00057C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB33B245268166FD00057C6F /* Preview Assets.xcassets in Resources */,
+				EB33B242268166FD00057C6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB33B236268166FB00057C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB33B24E2681671B00057C6F /* Endereco.swift in Sources */,
+				EB33B2532681688A00057C6F /* EnderecoViewModel.swift in Sources */,
+				EB33B240268166FB00057C6F /* ContentView.swift in Sources */,
+				EB33B2512681675E00057C6F /* EnderecoFetcher.swift in Sources */,
+				EB33B23E268166FB00057C6F /* EnderecoMVVMApp.swift in Sources */,
+				EB33B256268169A100057C6F /* EnderecoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB33B247268166FD00057C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB33B248268166FD00057C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB33B24A268166FD00057C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EnderecoMVVM/Preview Content\"";
+				DEVELOPMENT_TEAM = RRNNBMBSXJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EnderecoMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.iesb.2019-2.EnderecoMVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB33B24B268166FD00057C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EnderecoMVVM/Preview Content\"";
+				DEVELOPMENT_TEAM = RRNNBMBSXJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EnderecoMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.iesb.2019-2.EnderecoMVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB33B235268166FB00057C6F /* Build configuration list for PBXProject "EnderecoMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB33B247268166FD00057C6F /* Debug */,
+				EB33B248268166FD00057C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB33B249268166FD00057C6F /* Build configuration list for PBXNativeTarget "EnderecoMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB33B24A268166FD00057C6F /* Debug */,
+				EB33B24B268166FD00057C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB33B232268166FB00057C6F /* Project object */;
+}
